@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'Plan Your Journey with Woki on the Road',
   language: 'en-us',
   theme: 'light', // system, dark or light
-  siteUrl: 'https://woki-on-the-road.vercel.app/',
+  siteUrl: 'https://www.wokiontheroad.com',
   siteRepo: '',
   siteLogo: '/static/favicons/logo.jpg',
   socialBanner: '',
