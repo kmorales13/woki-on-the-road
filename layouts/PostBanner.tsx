@@ -31,7 +31,14 @@ export default function PostMinimal({ content, next, prev, children }: LayoutPro
             <div className="w-full">
               <Bleed>
                 <div className="aspect-[2/1] w-full relative">
-                  <Image src={displayImage} alt={title} fill className="object-cover" priority />
+                  <Image
+                    src={displayImage}
+                    alt={title}
+                    fill
+                    className="object-cover"
+                    priority
+                    unoptimized
+                  />
                 </div>
               </Bleed>
             </div>
